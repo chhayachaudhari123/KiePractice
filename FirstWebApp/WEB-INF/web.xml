@@ -1,0 +1,17 @@
+<web-app>
+<display-name>Registration</display-name>
+<servlet>
+<servlet-name>firstwebapp</servlet-name>
+<servlet-class>demoServlet.RegServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>firstwebapp</servlet-name>
+<url-pattern>/RegServlet</url-pattern>
+</servlet-mapping>
+
+<welcome-file-list>
+<welcome-file>registration.jsp</welcome-file>
+</welcome-file-list>
+
+</web-app>
